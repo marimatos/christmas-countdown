@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Niconne', cursive;
+}
+
+body {
+  background-image: url('./img/bg.jpg');
+  background-size: cover;
+  color: beige;
+}
+
+.container {  
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+
+div {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;  
+  text-align: center;
+}
+
+div h2 {
+  font-size: 3rem;
+}
+
+div .days {
+  font-size: 4.375rem;
+}
+
+div .hours {
+  font-size: 1.75rem;
+}
